@@ -1,2 +1,2 @@
 # sched_playground
-Some experiment for implementing DAG scheduler
+Some experiments for implementing DAG scheduler
