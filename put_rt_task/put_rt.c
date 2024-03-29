@@ -78,7 +78,7 @@ void *run_rt(void *data)
     attr.sched_flags = 0;
     attr.sched_nice = 0;
     attr.sched_policy = SCHED_FIFO; // リアルタイムFIFOポリシーを使用
-    attr.sched_priority = 45; // 例として優先順位を55に設定
+    attr.sched_priority = 45; // 例として優先順位を45に設定
 
     ret = sched_setattr(0, &attr, flags);
     if (ret < 0) {
